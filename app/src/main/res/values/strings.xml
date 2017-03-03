@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="icon_look2">每日看看</string>
+    <string name="icon_zhifu">知乎日报</string>
+    <string name="icon_wangyi">网易头条</string>
+
 </resources>
