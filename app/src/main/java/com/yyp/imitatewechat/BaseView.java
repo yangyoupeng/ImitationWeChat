@@ -8,5 +8,9 @@ public interface BaseView<T>{
 
     void showPersenter(T presenter);
 
+    void showProgressDialog();
 
+    void hidProgressDialog();
+
+    void showError(String error);
 }

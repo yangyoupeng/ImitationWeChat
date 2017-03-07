@@ -6,6 +6,9 @@ package com.yyp.imitatewechat;
 
 public interface BasePresenter {
 
-    void setDate();
+    /**
+     * 取消订阅
+     */
+    void unsubcrible();
 
 }
