@@ -21,8 +21,8 @@ public interface LookContract {
 
     interface LookView extends BaseView< LookPresenter > {
         void updateMeiziData(ArrayList< Meizi > list);
-
         void updateVedioData(ArrayList< Gank > list);
+
     }
 
 }

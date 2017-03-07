@@ -31,13 +31,17 @@ dependencies {
     //butterknife
     compile 'com.jakewharton:butterknife:8.5.1'
     /*rotrofit*/
-    compile 'com.squareup.retrofit2:retrofit:+'
-    compile 'com.squareup.retrofit2:converter-gson:+'
-    compile 'com.squareup.retrofit2:adapter-rxjava:+'
-    compile 'com.google.code.gson:gson:+'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.0.1'
     /*rx-android-java*/
-
-
+    compile 'io.reactivex:rxjava:1.2.7'
+    compile 'io.reactivex:rxandroid:1.2.1'
     /*recyclerView*/
     compile 'com.android.support:recyclerview-v7:25.1.1'
+    //  富文本
+    compile 'com.github.iwgang:simplifyspan:1.1'
+    compile 'com.uwetrottmann.photoview:library:1.2.4'
+
 }
