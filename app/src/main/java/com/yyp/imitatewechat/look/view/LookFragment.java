@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.yyp.imitatewechat.look.model.DailyBeforeListBean;
+import com.yyp.imitatewechat.look.model.DailyListBean;
 import com.yyp.imitatewechat.look.persenter.contract.LookContract;
 
 /**
@@ -21,8 +23,30 @@ public class LookFragment extends Fragment implements LookContract.LookView {
         return super.onCreateView (inflater, container, savedInstanceState);
     }
 
-    @Override
-    public void showPersenter(LookContract.LookPresenter presenter) {
 
+    
+    @Override
+    public void showError(String msg) {
+        
+    }
+    
+    @Override
+    public void useNightMode(boolean isNight) {
+        
+    }
+    
+    @Override
+    public void showContent(DailyListBean info) {
+        
+    }
+    
+    @Override
+    public void showMoreContent(String data, DailyBeforeListBean foreInfo) {
+        
+    }
+    
+    @Override
+    public void doInterval(int currentCount) {
+        
     }
 }
